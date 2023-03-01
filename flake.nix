@@ -19,7 +19,7 @@
         };
         my-package = pkgs.purifix {
           src = ./pkgs;
-          subdir = ./server;
+          subdir = "sample-server";
         };
       in
       {
@@ -27,5 +27,6 @@
           default = my-package;
         };
         defaultPackage = my-package;
+        devShells.default = my-package.development; 
       });
 }
