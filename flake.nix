@@ -27,6 +27,6 @@
           default = my-package;
         };
         defaultPackage = my-package;
-        devShells.default = my-package.development; 
+        devShells.default = my-package.develop; 
       });
 }

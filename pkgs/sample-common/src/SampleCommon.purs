@@ -1,4 +1,4 @@
 module SampleCommon where
 
 pi :: Number
-pi = 3.1
+pi = 3.14

@@ -1,0 +1,4 @@
+{
+    "purescript.buildCommand": "just build-ide",
+    "purescript.addSpagoSources": false
+}
