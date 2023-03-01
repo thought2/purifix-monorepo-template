@@ -1,0 +1,11 @@
+package:
+  name: sample-server
+  version: 0.0.1
+  dependencies: [ "console", "effect", "foldable-traversable", "prelude", "sample-common"]
+workspace:
+  set:
+    registry: 0.0.1
+  
+  extra_packages:
+    sample-common:
+      path: ../sample-common

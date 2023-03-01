@@ -18,7 +18,8 @@
           overlays = [ inputs.purifix.overlay ];
         };
         my-package = pkgs.purifix {
-          src = ./.;
+          src = ./pkgs;
+          subdir = ./server;
         };
       in
       {
